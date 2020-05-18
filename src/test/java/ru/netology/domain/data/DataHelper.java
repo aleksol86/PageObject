@@ -39,7 +39,6 @@ public class DataHelper {
         return new CardInfo("5559000000000002", "10000");
     }
 
-
     public static int checkBalanceOfCardFromWhereRechargeWasMade(int balance, int amountForRecharge) {
         int finalBalance = balance - amountForRecharge;
         return finalBalance;
